@@ -1,0 +1,41 @@
+{
+  "version": 2, 
+  
+
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    }
+  ],
+
+  "redirects": [
+    {
+      "source": "/old-faq",
+      "destination": "/faq",
+      "permanent": true
+    }
+  ],
+
+  "rewrites": [
+    {
+      "source": "/blog/:slug",
+      "destination": "/api/contentful/fetch-post?slug=:slug"
+    }
+  ],
+
+  "env": {
+    "NEXT_PUBLIC_SITE_TITLE": "BadgerScoop App"
+  }
+
+ 
+}
