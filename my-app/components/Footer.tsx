@@ -79,7 +79,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-gray-400">
-          <p>© 2025 Copyright. All Rights Reserved.</p>
+          <p>© 2026 Copyright. All Rights Reserved.</p>
           <p>
             Designed by  
             <a 
