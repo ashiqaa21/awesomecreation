@@ -13,7 +13,7 @@ const WhyChooseUsSingle = () => {
           <div className="w-full lg:w-1/2 relative" data-aos="fade-right">
               <div className="relative z-10  rounded-b-2xl rounded-t-[150px] overflow-hidden shadow-2xl">
   <video 
-    src="/mov1.mp4" 
+    src="images/mov1.mp4" 
     width="640" 
     height="440" 
     autoPlay // Starts video automatically
@@ -32,7 +32,7 @@ const WhyChooseUsSingle = () => {
               data-aos="zoom-in" 
               data-aos-delay="400"
             >
-              <img src="/16.jpeg" alt="Detail" className="w-full h-full object-cover" />
+              <img src="images/16.jpeg" alt="Detail" className="w-full h-full object-cover" />
             </div>
 
             {/* Aesthetic Background Shapes */}

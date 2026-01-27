@@ -8,7 +8,7 @@ const Footer = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: 'url("/abt.jpg")', // Replace with your desired image path
+          backgroundImage: 'url("images/abt.jpg")', // Replace with your desired image path
         }}
       >
         {/* The Opacity Overlay: 85% black makes text pop */}
@@ -21,7 +21,7 @@ const Footer = () => {
           
           {/* Brand & Narrative */}
           <div className="space-y-6">
-            <img className='h-12 md:h-16 lg:h-21 ' src="/logo1.jpeg" alt="Logo" />
+            <img className='h-12 md:h-16 lg:h-21 ' src="images/logo1.jpeg" alt="Logo" />
             <p className="text-gray-300 font-light leading-relaxed text-sm">
               Architecting immersive atmospheres and timeless celebrations for a decade. We believe in the magic of details.
             </p>

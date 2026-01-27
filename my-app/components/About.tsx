@@ -19,18 +19,18 @@ const CompanyIntro: React.FC = () => {
 
   // Replace these with your actual event decoration images
   const slidingImages = [
-    "/2.PNG",
-    "/3.png",
-    "/5.JPEG",
-    "/14.JPEG",
+    "images/2.PNG",
+    "images/3.png",
+    "images/5.JPEG",
+    "images/14.JPEG",
     // "/4.jpeg",
-    "/13.jpeg",
-    "/6.png",
-    "/7.jpeg",
-    "/8.jpeg",
-    "/9.png",
-    "/11.jpeg",
-    "/22.jpg",
+    "images/13.jpeg",
+    "images/6.png",
+    "images/7.jpeg",
+    "images/8.jpeg",
+    "images/9.png",
+    "images/11.jpeg",
+    "images/22.jpg",
   ];
 
   return (

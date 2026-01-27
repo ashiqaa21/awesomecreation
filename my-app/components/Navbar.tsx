@@ -15,7 +15,7 @@ export default function Navbar() {
           <Link href="/">
             <img 
               className="h-[65px] transition-transform duration-300 hover:scale-105" 
-              src="/logo.jpeg" 
+              src="images/logo.jpeg" 
               alt="Logo" 
             />
           </Link>

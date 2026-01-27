@@ -22,7 +22,7 @@ import { HeroSection } from '@/components/section'; // Adjust the import path as
           text: "Contact Us ",
           href: "/contact",
         }}
-        backgroundImage="/4.jpeg"
+        backgroundImage="images/4.jpeg"
         contactInfo={{
             website: "awesome__creation",
             phone: "+91 7411 074 379",

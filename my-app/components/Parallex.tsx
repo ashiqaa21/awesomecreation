@@ -7,7 +7,7 @@ const ContactParallax = () => {
       {/* --- VIDEO BACKGROUND --- */}
       <div className="absolute inset-0 z-0">
 <img 
-  src="/f.jpeg" 
+  src="images/f.jpeg" 
   alt="Calligraphy detail" 
   className="w-full h-auto rotate object-cover   shadow-2xl " 
 />

@@ -64,7 +64,7 @@ const QualitySection = () => {
   return (
     <section 
       className="relative py-24 font-sans bg-cover bg-center bg-no-repeat overflow-hidden" 
-      style={{ backgroundImage: "url('/e1.jpg')" }}
+      style={{ backgroundImage: "url('images/e1.jpg')" }}
     >
       {/* The Backdrop Blur Layer */}
       <div className="absolute inset-0 bg-white/30 backdrop-blur-[6px]"></div>
