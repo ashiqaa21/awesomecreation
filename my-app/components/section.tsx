@@ -59,7 +59,7 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
             <motion.section
                 ref={ref}
                 className={cn(
-                    "relative flex w-full flex-col overflow-hidden bg-black text-foreground md:flex-row ",
+                    "relative flex w-full min-h-[500px] flex-col overflow-hidden bg-black text-foreground md:flex-row ",
                     className
                 )}
                 initial="hidden"
@@ -131,7 +131,7 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
                     }}
                 >
                     <div
-                        className="absolute inset-0 bg-cover bg-center"
+                        className="absolute inset-0 bg-cover bg-center scale-120"
                         style={{ backgroundImage: `url(${backgroundImage})` }}
                     />
                 </motion.div>
