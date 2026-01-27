@@ -58,7 +58,7 @@ const CompanyIntro: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
           {/* Left Column: Sliding Artistic Image Layout */}
-          <div className="relative" data-aos="fade-right">
+          <div className="relative order-1 md:order-2" data-aos="fade-right">
             
             {/* The Main Image Frame - Now a Slider */}
             <div className="relative z-20 w-full aspect-[4/5] overflow-hidden shadow-2xl rounded-sm border-[12px] border-white bg-white">

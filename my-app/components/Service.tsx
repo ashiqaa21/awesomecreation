@@ -63,7 +63,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section id="services" className="py-24 bg-[#FAF9F6]">
+    <section id="services" className="py-18 bg-[#FAF9F6]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Design */}

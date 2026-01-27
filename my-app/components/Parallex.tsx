@@ -3,7 +3,7 @@ import { ChevronRight } from 'lucide-react';
 
 const ContactParallax = () => {
   return (
-    <section className="relative h-[60vh] md:h-[65vh] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[30vh] md:h-[65vh] flex items-center justify-center overflow-hidden">
       {/* --- VIDEO BACKGROUND --- */}
       <div className="absolute inset-0 z-0">
 <img 

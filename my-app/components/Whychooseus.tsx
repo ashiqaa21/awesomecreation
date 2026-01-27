@@ -5,12 +5,12 @@ import { video } from 'framer-motion/client';
 
 const WhyChooseUsSingle = () => {
   return (
-    <section className="py-24 bg-[#FAF9F6] overflow-hidden">
+    <section className="py-18 bg-[#FAF9F6] overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
           {/* Left Side: Large Featured Image with Overlapping Detail */}
-          <div className="w-full lg:w-1/2 relative" data-aos="fade-right">
+          <div className=" order-2 md:order-1 w-full lg:w-1/2 relative" data-aos="fade-right">
               <div className="relative z-10  rounded-b-2xl rounded-t-[150px] overflow-hidden shadow-2xl">
   <video 
     src="images/mov1.mp4" 
@@ -40,7 +40,7 @@ const WhyChooseUsSingle = () => {
           </div>
 
           {/* Right Side: Single Narrative Column */}
-          <div className="w-full lg:w-1/2 space-y-12" data-aos="fade-left">
+          <div className=" w-full lg:w-1/2 space-y-12" data-aos="fade-left">
             <div className="space-y-6">
               <h4 className="text-[#b57c6b] uppercase tracking-[0.5em] text-xs font-bold font-sans">
                 The Studio Signature

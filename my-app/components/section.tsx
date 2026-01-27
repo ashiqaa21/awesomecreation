@@ -87,17 +87,10 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
                                 {title}
                             </motion.h1>
                             <motion.div className="h-[2px] w-24 bg-[#b57c6b]" variants={itemVariants} />
-                            <motion.p className="mb-8 max-w-md text-lg md:text-xl font-light tracking-wide leading-relaxed text-zinc-400" variants={itemVariants}>
+                            <motion.p className="mb-2 max-w-md text-lg md:text-xl font-light tracking-wide leading-relaxed text-zinc-400" variants={itemVariants}>
                                 {subtitle}
                             </motion.p>
-                            <motion.div variants={itemVariants}>
-                                <a 
-                                    href={callToAction.href}
-                                    className="inline-flex items-center justify-center bg-white px-10 py-4 text-black text-sm uppercase tracking-[0.2em] font-semibold rounded-full hover:bg-[#b57c6b] hover:text-white transition-all duration-500 shadow-xl"
-                                >
-                                    {callToAction.text}
-                                </a>
-                            </motion.div>
+                          
                         </div>
                     </div>
 

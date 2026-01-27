@@ -42,11 +42,11 @@ const Footer = () => {
           <div className="space-y-6">
             <h4 className="text-xs uppercase tracking-[0.4em] font-bold text-[#b57c6b]">The Services</h4>
             <ul className="space-y-4 text-sm text-gray-300 font-light">
-              <li className="hover:text-white transition-colors cursor-pointer">Bespoke Wedding Decor</li>
-              <li className="hover:text-white transition-colors cursor-pointer">Corporate Gala Design</li>
-              <li className="hover:text-white transition-colors cursor-pointer">Floral Installations</li>
-              <li className="hover:text-white transition-colors cursor-pointer">Lighting & Soundscapes</li>
-              <li className="hover:text-white transition-colors cursor-pointer">Immersive Set Building</li>
+              <li className="hover:text-white transition-colors cursor-pointer">Wedding Gifts</li>
+              <li className="hover:text-white transition-colors cursor-pointer">Birthday Gifts</li>
+              <li className="hover:text-white transition-colors cursor-pointer">Anniversary Gifts</li>
+              <li className="hover:text-white transition-colors cursor-pointer">Engagement and Others</li>
+              {/* <li className="hover:text-white transition-colors cursor-pointer">Immersive Set Building</li> */}
             </ul>
           </div>
 
@@ -56,7 +56,7 @@ const Footer = () => {
             <div className="space-y-4 text-sm text-gray-300 font-light">
               <div className="flex items-start space-x-3">
                 <MapPin size={18} className="text-[#b57c6b] shrink-0" />
-                <p>Mangalore, Karnataka, India</p>
+                <p>Panemangalore , BC Road, 574231</p>
               </div>
             </div>
           </div>
@@ -67,11 +67,11 @@ const Footer = () => {
             <div className="space-y-4 text-sm text-gray-300 font-light">
               <a href="mailto:info@leacsindus.com" className="flex items-center space-x-3 hover:text-white transition-colors">
                 <Mail size={18} className="text-[#b57c6b]" />
-                <span>info@leacsindus.com</span>
+                <span>ashikahaneef62@gmail.com</span>
               </a>
-              <a href="tel:+966582703080" className="flex items-center space-x-3 hover:text-white transition-colors">
+              <a href="tel:917411074379" className="flex items-center space-x-3 hover:text-white transition-colors">
                 <Phone size={18} className="text-[#b57c6b]" />
-                <span>+966 58 270 3080</span>
+                <span>+91 7411 074 379</span>
               </a>
             </div>
           </div>
