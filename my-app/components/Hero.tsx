@@ -6,7 +6,7 @@ import { HeroSection } from '@/components/section'; // Adjust the import path as
     <div className="w-full">
       <HeroSection
         logo={{
-            url: "/img1.png",
+            url: "img1.png",
             alt: "Company Logo",
             text: ""
         }}
