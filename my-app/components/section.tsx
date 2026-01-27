@@ -2,7 +2,7 @@
 import React from 'react';
 import { cn } from "@/lib/utils";
 import { motion, Variants, HTMLMotionProps } from 'framer-motion';
-import { InfoIcon } from 'lucide-react';
+import { InfoIcon, Instagram, Locate, Phone } from 'lucide-react';
 
 // ... InfoIcon remains the same ...
 
@@ -59,7 +59,7 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
             <motion.section
                 ref={ref}
                 className={cn(
-                    "relative flex w-full flex-col overflow-hidden bg-black text-foreground md:flex-row min-h-screen",
+                    "relative flex w-full flex-col overflow-hidden bg-black text-foreground md:flex-row ",
                     className
                 )}
                 initial="hidden"
@@ -104,15 +104,15 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
                     <motion.footer className="mt-16 border-t border-white/10 pt-8" variants={itemVariants}>
                         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between text-zinc-400">
                             <div className="flex items-center hover:text-[#b57c6b] transition-colors">
-                                <InfoIcon type="website" />
-                                <a href="https://instagram.com/awesome__creation" target="_blank" className="text-sm tracking-widest">{contactInfo.website}</a>
+                                <Instagram type="website" /> 
+                                <a href="https://instagram.com/awesome__creation" target="_blank" className="text-sm p-1 tracking-widest">{contactInfo.website}</a>
                             </div>
                             <div className="flex items-center hover:text-[#b57c6b] transition-colors">
-                                <InfoIcon type="phone" />
+                                <Phone type="phone" />
                                 <a href={`tel:${contactInfo.phone}`} className="text-sm tracking-widest">{contactInfo.phone}</a>
                             </div>
                             <div className="flex items-center">
-                                <InfoIcon type="address" />
+                                <Locate type="address" />
                                 <span className="text-sm tracking-widest">{contactInfo.address}</span>
                             </div>
                         </div>
