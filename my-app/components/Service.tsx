@@ -43,24 +43,26 @@ const ServiceCard = ({ title, imageUrl, category }: ServiceCardProps) => (
 
 const ServicesSection = () => {
   const services = [
-    { category: 'Bespoke', title: 'Personalized Love', imageUrl: 'images/1.png' },
-    { category: 'Corporate', title: 'Big Impact', imageUrl: 'images/12.JPEG' },
-    { category: 'Intimate', title: 'Handcrafted Heart', imageUrl: 'images/3.png' },
-    { category: 'Luxury', title: 'Designed Delight', imageUrl: 'images/6.PNG' },
-    { category: 'Professional', title: 'Precise Details', imageUrl: 'images/7.JPEG' },
-    { category: 'Social', title: 'Captured Memories', imageUrl: 'images/8.JPEG' },
-    { category: 'Entertainment', title: 'Inspiring Art', imageUrl: 'images/9.png' },
-    { category: 'Formal', title: 'Told Stories', imageUrl: 'images/13.JPEG' },
-    { category: 'Formal', title: 'Crafted Happiness', imageUrl: 'images/14.JPEG' },
-    { category: 'Formal', title: 'Creative Love', imageUrl: 'images/22.JPG' },
-    { category: 'Formal', title: 'Unique Souls', imageUrl: 'images/16.JPEG' },
-    { category: 'Formal', title: 'Tactile Art', imageUrl: 'images/17.JPEG' },
-    { category: 'Formal', title: 'Treasured Creation', imageUrl: 'images/19.JPEG' },
-    { category: 'Formal', title: 'Purely Handmade', imageUrl: 'images/20.JPG' },
-    { category: 'Formal', title: 'Soulful Craft', imageUrl: 'images/21.PNG' },
-    { category: 'Formal', title: 'Handmade Joy', imageUrl: 'images/15.JPEG' },
-    { category: 'Formal', title: 'Happy Place', imageUrl: 'images/23.JPEG' },
-  ];
+
+  { category: 'Bespoke', title: 'Personalized Love', imageUrl: 'images/1.png' },
+  { category: 'Corporate', title: 'Big Impact', imageUrl: 'images/12.jpeg' },
+  { category: 'Intimate', title: 'Handcrafted Heart', imageUrl: 'images/3.png' },
+  { category: 'Luxury', title: 'Designed Delight', imageUrl: 'images/6.png' },
+  { category: 'Professional', title: 'Precise Details', imageUrl: 'images/7.jpeg' },
+  { category: 'Social', title: 'Captured Memories', imageUrl: 'images/8.jpeg' },
+  { category: 'Entertainment', title: 'Inspiring Art', imageUrl: 'images/9.png' },
+  { category: 'Formal', title: 'Told Stories', imageUrl: 'images/13.jpeg' },
+  { category: 'Formal', title: 'Crafted Happiness', imageUrl: 'images/14.jpeg' },
+  { category: 'Formal', title: 'Creative Love', imageUrl: 'images/22.jpg' },
+  { category: 'Formal', title: 'Unique Souls', imageUrl: 'images/16.jpeg' },
+  { category: 'Formal', title: 'Tactile Art', imageUrl: 'images/17.jpeg' },
+  { category: 'Formal', title: 'Treasured Creation', imageUrl: 'images/19.jpeg' },
+  { category: 'Formal', title: 'Purely Handmade', imageUrl: 'images/20.jpg' },
+  { category: 'Formal', title: 'Soulful Craft', imageUrl: 'images/21.png' },
+  { category: 'Formal', title: 'Handmade Joy', imageUrl: 'images/15.jpeg' },
+  { category: 'Formal', title: 'Happy Place', imageUrl: 'images/23.jpeg' },
+];
+
 
   return (
     <section id="services" className="py-18 bg-[#FAF9F6]">
