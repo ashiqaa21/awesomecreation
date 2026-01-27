@@ -1,0 +1,21 @@
+[33mae642d5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: pull origin main --rebase: Fast-forward
+[33m0f129a8[m HEAD@{1}: commit: m
+[33mfedafc6[m HEAD@{2}: commit: m
+[33mb234e60[m HEAD@{3}: commit: m
+[33mcbe076e[m HEAD@{4}: commit: m
+[33mee4ba53[m HEAD@{5}: commit: m
+[33mcdc8cb1[m HEAD@{6}: commit: m
+[33m30171b7[m HEAD@{7}: commit: m
+[33m2ab0826[m HEAD@{8}: commit: m
+[33md400fcb[m HEAD@{9}: commit: m
+[33mbf08531[m HEAD@{10}: commit: m
+[33m724eee4[m HEAD@{11}: commit: main
+[33m8f97137[m HEAD@{12}: commit: main
+[33ma12760d[m HEAD@{13}: commit: main
+[33m209c4a6[m HEAD@{14}: commit: main
+[33mb9c987b[m HEAD@{15}: commit: main
+[33ma85869a[m HEAD@{16}: commit: main
+[33m7597081[m HEAD@{17}: commit: main
+[33mc665dfb[m HEAD@{18}: Branch: renamed refs/heads/master to refs/heads/main
+[33mc665dfb[m HEAD@{20}: Branch: renamed refs/heads/main to refs/heads/master
+[33mc665dfb[m HEAD@{22}: commit (initial): main
