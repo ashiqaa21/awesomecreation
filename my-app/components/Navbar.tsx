@@ -10,7 +10,7 @@ export default function Navbar() {
     >
       {/* Overlay to ensure text remains readable */}
       <div className="bg-white/80 backdrop-blur-[3px] w-full h-full">
-        <nav className="mx-auto flex flex-col items-center justify-center px-6 py-4 gap-6">
+        <nav className="mx-auto flex flex-col items-center justify-center px-6 md:py-4 py-2 gap-6">
           
           <Link href="/">
             <img 
