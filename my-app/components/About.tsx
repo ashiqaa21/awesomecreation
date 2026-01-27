@@ -17,7 +17,7 @@ const CompanyIntro: React.FC = () => {
   }, []);
 
   const slidingImages = [
-    "images/2.PNG", "images/3.png", "images/5.jpeg", "images/14.jpeg",
+    "images/2.png", "images/3.png", "images/5.jpeg", "images/14.jpeg",
     "images/13.jpeg", "images/6.png", "images/7.jpeg", "images/8.jpeg",
     "images/9.png", "images/11.jpeg", "images/22.jpg",
   ];
