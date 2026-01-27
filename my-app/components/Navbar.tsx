@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <header 
       className="sticky top-0 z-50 border-b border-zinc-200 bg-white bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/e.jpg')" }} // Replace with your path
+      style={{ backgroundImage: "url('images/e.jpg')" }} // Replace with your path
     >
       {/* Overlay to ensure text remains readable */}
       <div className="bg-white/80 backdrop-blur-[3px] w-full h-full">
