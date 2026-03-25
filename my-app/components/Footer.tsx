@@ -88,7 +88,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-white font-bold hover:text-[#b57c6b] transition-colors ml-1"
             >
-              Mahammad Mufeez
+              Ashika NH
             </a>
           </p>
         </div>
