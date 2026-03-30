@@ -12,7 +12,7 @@ const Footer = () => {
         }}
       >
         {/* The Opacity Overlay: 85% black makes text pop */}
-        <div className="absolute inset-0 bg-black/95"></div> 
+        <div className="absolute inset-0 bg-black/100"></div> 
       </div>
 
       {/* --- CONTENT (Wrapped in relative z-10 to stay above image) --- */}
@@ -71,7 +71,7 @@ const Footer = () => {
               </a>
               <a href="tel:917411074379" className="flex items-center space-x-3 hover:text-white transition-colors">
                 <Phone size={18} className="text-[#b57c6b]" />
-                <span>+91 7411 074 379</span>
+                <span>+91 7411074379</span>
               </a>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
           <p>
             Designed by  
             <a 
-              href="https://wa.me/6362514956" 
+              href="https://wa.me/7411074379" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white font-bold hover:text-[#b57c6b] transition-colors ml-1"
