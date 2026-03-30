@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Awesome Creation",
   description: "awesome creation, gifts ",
+    icons: {
+    icon: "/images/logo2.png",          // main favicon
+    shortcut: "/images/logo2.png",      // optional
+    apple: "/images/logo2.png",         // for iOS
+  },
 };
 
 export default function RootLayout({
