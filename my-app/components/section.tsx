@@ -68,7 +68,7 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
                 {...props} // Now safely spreading motion-compatible props
             >
                 {/* Left Side: Content */}
-                <div className="flex w-full flex-col justify-between p-8 md:w-1/2 md:p-12 lg:w-3/5 lg:p-16 z-10">
+                <div className="flex w-full flex-col justify-center p-8 md:w-1/2 md:p-12 lg:w-3/5 lg:p-16 z-10">
                     <div>
                         <motion.header className="mb-12" variants={itemVariants}>
                             {logo && (
@@ -95,15 +95,12 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
                     </div>
 
                     <motion.footer className="mt-16 border-t border-white/10 pt-8" variants={itemVariants}>
-                        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between text-zinc-400">
+                        <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between text-zinc-400">
                             <div className="flex items-center hover:text-[#b57c6b] transition-colors">
                                 <Instagram type="website" /> 
                                 <a href="https://instagram.com/awesome__creation" target="_blank" className="text-sm p-1 tracking-widest">{contactInfo.website}</a>
                             </div>
-                            <div className="flex items-center hover:text-[#b57c6b] transition-colors">
-                                <Phone type="phone" />
-                                <a href={`tel:${contactInfo.phone}`} className="text-sm tracking-widest">{contactInfo.phone}</a>
-                            </div>
+                       
                             <div className="flex items-center">
                                 <Locate type="address" />
                                 <span className="text-sm tracking-widest">{contactInfo.address}</span>

@@ -52,7 +52,7 @@ const CompanyIntro: React.FC = () => {
             
             {/* Floating Badge */}
             <div className="absolute -bottom-10 -right-6 lg:-right-10 z-30 bg-black text-white p-8 rounded-full shadow-xl hidden md:block" data-aos="zoom-in" data-aos-delay="400">
-              <p className="text-4xl font-bold">12+</p>
+              <p className="text-4xl font-bold text-center">3+</p>
               <p className="text-sm uppercase tracking-widest font-light">Years of Magic</p>
             </div>
             <div className="absolute -left-4 top-10 w-20 h-[2px] bg-black z-10"></div>

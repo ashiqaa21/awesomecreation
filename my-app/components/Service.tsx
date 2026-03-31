@@ -18,13 +18,13 @@ const WHATSAPP_NUMBER = "917411074379"; // Replace with your number (country cod
 
 const ServiceCard = ({ title, imageUrl, category }: ServiceCardProps) => {
   const handleWhatsAppClick = () => {
-    const professionalText = `Hello! I'm interested in the "${title}" service from your "${category}" collection.\n Could you please provide more information?`;
+    const professionalText = `Hello! I'm interested in the *${title}* service. \n Could you please provide more information?`;
     const encodedText = encodeURIComponent(professionalText);
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedText}`, '_blank');
   };
 
   return (
-    <div className="group relative overflow-hidden h-[500px] rounded-t-full transition-all duration-700 ease-in-out hover:rounded-lg">
+    <div id="services" className="group relative overflow-hidden h-[500px] rounded-t-full transition-all duration-700 ease-in-out hover:rounded-lg">
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
         style={{ backgroundImage: `url(${imageUrl})` }}

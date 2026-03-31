@@ -25,7 +25,6 @@ import { HeroSection } from '@/components/section'; // Adjust the import path as
         backgroundImage="images/4.jpeg"
         contactInfo={{
             website: "awesome__creation",
-            phone: "+91 7411 074 379",
             address: "Panemangalore , BC Road, 574231",
         }}
       />

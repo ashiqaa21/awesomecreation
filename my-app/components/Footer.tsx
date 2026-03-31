@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="space-y-4 text-sm text-gray-300 font-light">
               <a href="mailto:info@leacsindus.com" className="flex items-center space-x-3 hover:text-white transition-colors">
                 <Mail size={18} className="text-[#b57c6b]" />
-                <span>ashikahaneef62@gmail.com</span>
+                <span>awesomecreation101@gmail.com</span>
               </a>
               <a href="tel:917411074379" className="flex items-center space-x-3 hover:text-white transition-colors">
                 <Phone size={18} className="text-[#b57c6b]" />
