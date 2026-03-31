@@ -18,7 +18,7 @@ const WHATSAPP_NUMBER = "917411074379"; // Replace with your number (country cod
 
 const ServiceCard = ({ title, imageUrl, category }: ServiceCardProps) => {
   const handleWhatsAppClick = () => {
-    const professionalText = `Hello! I'm interested in the "${title}" service from your "${category}" collection. Could you please provide more information?`;
+    const professionalText = `Hello! I'm interested in the "${title}" service from your "${category}" collection.\t Could you please provide more information?`;
     const encodedText = encodeURIComponent(professionalText);
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodedText}`, '_blank');
   };
