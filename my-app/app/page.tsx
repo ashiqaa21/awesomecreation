@@ -13,10 +13,10 @@ export default function Home() {
       <Navbar />
       <main className="bg-zinc-50 text-zinc-900">
         <Hero />
-        <About />
         <Service />
-        <Why />
+        <About />
         <Parallex />
+        <Why />
         <Client />
         <Footer />
       </main>
