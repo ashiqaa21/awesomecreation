@@ -2,6 +2,7 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+   basePath: "/adminashika21",
   images: {
     remotePatterns: [
       {
