@@ -14,7 +14,7 @@ interface ServiceCardProps {
   category: string;
 }
 
-const WHATSAPP_NUMBER = "1234567890"; // Replace with your number (country code first, no +)
+const WHATSAPP_NUMBER = "917411074379"; // Replace with your number (country code first, no +)
 
 const ServiceCard = ({ title, imageUrl, category }: ServiceCardProps) => {
   const handleWhatsAppClick = () => {
