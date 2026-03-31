@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Mail, MapPin,MessageCircle, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -26,11 +26,11 @@ const Footer = () => {
               Architecting immersive atmospheres and timeless celebrations for a decade. We believe in the magic of details.
             </p>
             <div className="flex space-x-4 pt-2">
-              <a href="#" className="p-2 border border-white/50 rounded-full hover:bg-[#b57c6b] hover:border-[#b57c6b] transition-all">
+              <a href="https://www.instagram.com/awesome__creation" target='_blank' className="p-2 border border-white/50 rounded-full hover:bg-[#b57c6b] hover:border-[#b57c6b] transition-all">
                 <Instagram size={18} className="text-white" />
               </a>
-              <a href="#" className="p-2 border border-white/50 rounded-full hover:bg-[#b57c6b] hover:border-[#b57c6b] transition-all">
-                <Facebook size={18} className="text-white" />
+              <a href="https://wa.me/7411074379" className="p-2 border border-white/50 rounded-full hover:bg-[#b57c6b] hover:border-[#b57c6b] transition-all">
+                <MessageCircle size={18} className="text-white" />
               </a>
               <a href="#" className="p-2 border border-white/50 rounded-full hover:bg-[#b57c6b] hover:border-[#b57c6b] transition-all">
                 <Linkedin size={18} className="text-white" />
@@ -78,9 +78,9 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-gray-400">
+        <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-center items-center gap-4 text-[10px] uppercase tracking-widest text-gray-400">
           <p>© 2026 Copyright. All Rights Reserved.</p>
-          <p>
+          {/* <p>
             Designed by  
             <a 
               href="https://wa.me/7411074379" 
@@ -90,7 +90,7 @@ const Footer = () => {
             >
               Ashika NH
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>
