@@ -24,7 +24,6 @@ interface HeroSectionProps extends Omit<HTMLMotionProps<"section">, 'title'> {
     backgroundImage: string;
     contactInfo: {
         website: string;
-        phone: string;
         address: string;
     };
 }
