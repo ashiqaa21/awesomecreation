@@ -23,7 +23,7 @@ const CompanyIntro: React.FC = () => {
   ];
 
   return (
-    <section id="about" className="relative py-20 lg:py-14 overflow-hidden bg-[#fcfaf8]">
+    <section id="about" className="relative py-20 lg:py-8  lg:mb-16 overflow-hidden bg-[#fcfaf8]">
       {/* Background Texture & Decor */}
       <div className="absolute inset-0 z-0 opacity-[0.2]" style={{ backgroundImage: 'url("/images/5.JPG")', backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
       <div className="absolute right-0 top-0 w-1/3 bg-black opacity-40 z-0 hidden lg:block" style={{ clipPath: 'polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%)' }}></div>
@@ -34,7 +34,7 @@ const CompanyIntro: React.FC = () => {
           {/* COLUMN A: Image Slider */}
           {/* Mobile: Order 2 (Bottom) | Desktop: Order 1 (Left) */}
           <div className="relative order-2 lg:order-1" data-aos="fade-right">
-            <div className="relative z-20 w-full aspect-[4/5] overflow-hidden shadow-2xl rounded-sm border-[12px] border-white bg-white">
+            <div className="relative z-20 w-full aspect-[4/5] overflow-hidden  rounded-sm border-[12px] border-white bg-white">
               <Swiper
                 modules={[Autoplay, EffectFade]}
                 effect="fade"
@@ -51,9 +51,9 @@ const CompanyIntro: React.FC = () => {
             </div>
             
             {/* Floating Badge */}
-            <div className="absolute -bottom-10 -right-6 lg:-right-10 z-30 bg-black text-white p-8 rounded-full shadow-xl hidden md:block" data-aos="zoom-in" data-aos-delay="400">
+            <div className="absolute -bottom-6 -right-6 lg:-right-10 z-30 bg-black text-white p-5 rounded-full   hidden md:block" data-aos="zoom-in" data-aos-delay="400">
               <p className="text-4xl font-bold text-center">3+</p>
-              <p className="text-sm uppercase tracking-widest font-light">Years of Magic</p>
+              <p className="text-sm uppercase tracking-widest font-light">Years of Love & Smiles</p>
             </div>
             <div className="absolute -left-4 top-10 w-20 h-[2px] bg-black z-10"></div>
           </div>
@@ -63,21 +63,21 @@ const CompanyIntro: React.FC = () => {
           <div className="space-y-8 order-1 lg:order-2" data-aos="fade-left">
             <div className="space-y-4">
               <span className="text-black uppercase tracking-[0.3em] text-sm font-semibold">
-                The Art of Event Design
+                Handcrafted With Love
               </span>
               <h2 className="text-4xl font-monte lg:text-6xl font-medium text-gray-900 leading-tight">
-                Our Passion is Bringing <br /><span className="italic text-[#b57c6b]"> Your Vision to Life</span>
+                We Create Gifts That<br /><span className="italic text-[#b57c6b]"> Speak Your Heart</span>
               </h2>
               <div className="w-20 h-1 bg-black"></div>
             </div>
 
-            <div className="space-y-6 text-gray-600 font-light leading-relaxed text-lg">
+            <div className="space-y-4 text-gray-600 font-light leading-relaxed text-lg">
               <p>
-                At <span className="font-semibold text-gray-800">Our Events</span>, we believe every celebration tells a unique story. We specialize in bespoke floral arrangements and immersive set designs.
+                At <span className="font-semibold text-gray-800">Awesome Creation </span>, we believe every gift is more than just a product it’s an emotion.
+                From customized bouquets to surprise hampers, we design each piece with love, care, and creativity.
               </p>
               <p>
-                From intimate candlelit dinners to grand corporate galas, our team transforms environments into unforgettable experiences.
-              </p>
+                  Whether it’s a birthday, anniversary, or a special surprise, we help you make every moment unforgettable 💖</p>
             </div>
           </div>
 

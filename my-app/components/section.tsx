@@ -58,7 +58,7 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
             <motion.section
                 ref={ref}
                 className={cn(
-                    "relative flex w-full min-h-[500px] flex-col overflow-hidden bg-black text-foreground md:flex-row ",
+                    "relative flex w-full min-h-[761px] flex-col overflow-hidden bg-black text-foreground md:flex-row ",
                     className
                 )}
                 initial="hidden"
@@ -82,7 +82,7 @@ const HeroSection = React.forwardRef<HTMLElement, HeroSectionProps>(
                         </motion.header>
 
                         <div className="space-y-6">
-                            <motion.h1 className="text-5xl font-monte text-white md:text-8xl tracking-tight leading-[0.9]" variants={itemVariants}>
+                            <motion.h1 className="text-3xl font-monte text-white md:text-7xl tracking-wide leading-[1.4]  " variants={itemVariants}>
                                 {title}
                             </motion.h1>
                             <motion.div className="h-[2px] w-24 bg-[#b57c6b]" variants={itemVariants} />

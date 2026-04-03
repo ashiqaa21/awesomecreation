@@ -75,7 +75,7 @@ const QualitySection = () => {
           <div className="space-y-12">
             <div className="space-y-4">
               <span className="text-[#b57c6b] uppercase tracking-[0.4em] text-xs font-bold block">
-                The Artisanal Standard
+               Why Choose Us
               </span>
               <h2 className="text-4xl md:text-6xl font-monte text-black">
                 Ink on Paper, <br /> 

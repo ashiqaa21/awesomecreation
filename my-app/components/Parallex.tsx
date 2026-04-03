@@ -13,7 +13,7 @@ const ContactParallax = () => {
 />
         
         {/* Dark Overlay - Keeps text readable over moving video */}
-        <div className="absolute inset-0 bg-black/30 backdrop-blur-[1px]"></div>
+        <div className="absolute inset-0 bg-black/30 backdrop-blur-[3px]"></div>
       </div>
 
       {/* --- CONTENT --- */}
@@ -23,11 +23,11 @@ const ContactParallax = () => {
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-7xl font-monte text-white ">
-            Ready to Plan Your <br /> 
-            <span className="italic font-light">Next Masterpiece?</span>
+            Ready to Surprise <br /> 
+            <span className="italic font-light">Someone Special?</span>
           </h2>
           <p className="text-gray-200 font-light text-lg md:text-xl max-w-2xl mx-auto ">
-            Let’s collaborate to turn your vision into a breathtaking reality. 
+            Looking for the perfect gift? We’re here to create something truly special for you.
             From initial concept to the final toast, we handle it all.
           </p>
         </div>

@@ -13,11 +13,11 @@ import { HeroSection } from '@/components/section'; // Adjust the import path as
         slogan="Awesome Creation"
         title={
           <>
-            Each Peak <br />
-            <span className="text-white">Teaches Something</span>
+            Handcrafted Gifts <br />
+            <span className="text-white">Made With Love</span>
           </>
         }
-        subtitle="Discover breathtaking landscapes and challenge yourself with our guided mountain expeditions. Join a community of adventurers."
+        subtitle="Personalized bouquets, hampers & custom creations for your special moments."
         callToAction={{
           text: "Contact Us ",
           href: "/contact",

@@ -44,39 +44,38 @@ const WhyChooseUsSingle = () => {
           <div className="w-full lg:w-1/2 space-y-12 order-1 lg:order-2" data-aos="fade-left">
             <div className="space-y-6">
               <h4 className="text-[#b57c6b] uppercase tracking-[0.5em] text-xs font-bold font-sans">
-                The Studio Signature
+                Made With Love
               </h4>
               <h2 className="text-5xl md:text-7xl font-monte text-gray-900 leading-[1.1]">
-                Where Every Detail <br /> 
-                <span className="italic font-light text-[#b57c6b]">Whispers Luxury</span>
+                Where Every Gift <br /> 
+                <span className="italic font-light text-[#b57c6b]">Tells a Story</span>
               </h2>
               <div className="w-20 h-[1.5px] bg-[#b57c6b]/30"></div>
             </div>
 
             <div className="space-y-8">
               <p className="text-xl text-gray-700 italic leading-relaxed">
-                "We don't just decorate spaces; we architect immersive experiences that blend avant-garde lighting with floral sculpture."
+                From birthdays to surprises, we create gifts that bring smiles and emotions together. Each piece is handcrafted to make your loved ones feel truly special
               </p>
               
               <p className="text-gray-600 font-light leading-relaxed text-lg">
-                With over 12 years of perfecting the 'wow' factor, our team manages the technical complexities so you can focus on the memories.
-              </p>
+                      Designed to Make Moments Special</p>
             </div>
 
             {/* Value Props */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-10 gap-x-6 pt-10 border-t border-gray-200">
               <div className="space-y-3">
                 <PenTool size={24} className="text-[#b57c6b]" />
-                <h5 className="font-redrose text-xl text-gray-900">Artisanal Script</h5>
+                <h5 className="font-redrose text-xl text-gray-900">Personalized Touch</h5>
                 <p className="text-sm text-gray-500 font-light leading-relaxed">
-                  Hand-lettered calligraphy that captures the rhythmic grace of ink on parchment.
+                  Designed to reflect your story and emotions
                 </p>
               </div>
               <div className="space-y-3">
                 <Scissors size={24} className="text-[#b57c6b]" />
-                <h5 className="font-redrose text-xl text-gray-900">Precision Craft</h5>
+                <h5 className="font-redrose text-xl text-gray-900">Fully Customizable</h5>
                 <p className="text-sm text-gray-500 font-light leading-relaxed">
-                  Meticulously hand-assembled details using premium materials for a tactile experience.
+                  Tailored exactly to your style and occasion
                 </p>
               </div>
             </div>

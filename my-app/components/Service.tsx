@@ -42,7 +42,7 @@ const ServiceCard = ({ title, imageUrl, category }: ServiceCardProps) => {
             onClick={handleWhatsAppClick}
             className="px-6 py-2 border border-white text-white text-[10px] uppercase tracking-[0.3em] hover:bg-white hover:text-black transition-all duration-300"
           >
-            Inquire on WhatsApp
+            Customize Now
           </button>
         </div>
       </div>
