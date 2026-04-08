@@ -78,8 +78,8 @@ const QualitySection = () => {
                Why Choose Us
               </span>
               <h2 className="text-4xl md:text-6xl font-monte text-black">
-                Ink on Paper, <br /> 
-                <span className="italic font-light text-[#b57c6b]">Soul on Surface</span>
+                Crafted with Love, <br /> 
+                <span className="italic font-light text-[#b57c6b]">Made for Your Moments</span>
               </h2>
               <p className="text-black font-light text-lg leading-relaxed max-w-lg">
                 In a world of mass production, we celebrate the slow, the deliberate, and the hand-made. Every commission is a collaboration between heritage techniques and modern aesthetic vision.
