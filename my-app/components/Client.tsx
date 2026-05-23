@@ -89,7 +89,7 @@ const QualitySection = () => {
             <div className="flex gap-8 pt-4">
               <div className="text-center space-y-2">
                 <span className="text-5xl font-redrose text-[#b57c6b]">
-                  <Counter from={0} to={4000} />+
+                  <Counter from={0} to={4500} />+
                 </span>
                 <p className="text-[10px] uppercase tracking-widest text-gray-600 font-bold">Instagram Followers</p>
               </div>

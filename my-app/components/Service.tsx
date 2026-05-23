@@ -84,25 +84,32 @@ const ServicesSection = () => {
         </div>
 
         <div>
-          <Swiper
-            modules={[Autoplay, Pagination, Navigation]}
-            spaceBetween={24}
-            loop={services.length > 4}
-            centeredSlides={true}
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
-            breakpoints={{
-              320: { slidesPerView: 1.2, spaceBetween: 15 },
-              640: { slidesPerView: 2.2 },
-              1024: { slidesPerView: 4.2 },
-            }}
-            className="pb-14"
-          >
-            {services.map((service, index) => (
-              <SwiperSlide key={index}>
-                <ServiceCard {...service} />
-              </SwiperSlide>
-            ))}
-          </Swiper>
+       <Swiper
+  modules={[Autoplay, Pagination, Navigation]}
+  spaceBetween={24}
+  loop={true}
+  loopAdditionalSlides={services.length}
+  speed={4000} // smoother continuous movement
+  centeredSlides={false}
+  allowTouchMove={true}
+  autoplay={{
+    delay: 0,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: false,
+  }}
+  breakpoints={{
+    320: { slidesPerView: 1.2, spaceBetween: 15 },
+    640: { slidesPerView: 2.2 },
+    1024: { slidesPerView: 5 },
+  }}
+  className="pb-14 services-swiper"
+>
+  {services.map((service, index) => (
+    <SwiperSlide key={index}>
+      <ServiceCard {...service} />
+    </SwiperSlide>
+  ))}
+</Swiper>
         </div>
       </div>
     </section>
