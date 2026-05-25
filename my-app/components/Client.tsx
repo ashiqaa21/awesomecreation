@@ -86,20 +86,27 @@ const QualitySection = () => {
               </p>
             </div>
 
-            <div className="flex gap-8 pt-4">
-              <div className="text-center space-y-2">
-                <span className="text-5xl font-redrose text-[#b57c6b]">
-                  <Counter from={0} to={4500} />+
-                </span>
-                <p className="text-[10px] uppercase tracking-widest text-gray-600 font-bold">Instagram Followers</p>
-              </div>
-              <div className="text-center space-y-2 border-l border-gray-100 pl-12">
-                <span className="text-5xl font-redrose text-[#b57c6b]">
-                  <Counter from={0} to={1400} />+
-                </span>
-                <p className="text-[10px] uppercase tracking-widest text-gray-600 font-bold">Instagram Posts</p>
-              </div>
-            </div>
+          <div className="flex flex-row justify-center items-center gap-4 sm:gap-8 pt-4 flex-wrap">
+  
+  <div className="text-center min-w-[120px]">
+    <span className="block text-3xl sm:text-5xl leading-none font-redrose text-[#b57c6b]">
+      <Counter from={0} to={4500} />+
+    </span>
+    <p className="mt-2 text-[9px] sm:text-[10px] uppercase tracking-[2px] text-gray-600 font-bold">
+      Instagram Followers
+    </p>
+  </div>
+
+  <div className="text-center min-w-[120px] sm:border-l border-gray-100 sm:pl-8">
+    <span className="block text-3xl sm:text-5xl leading-none font-redrose text-[#b57c6b]">
+      <Counter from={0} to={1400} />+
+    </span>
+    <p className="mt-2 text-[9px] sm:text-[10px] uppercase tracking-[2px] text-gray-600 font-bold">
+      Instagram Posts
+    </p>
+  </div>
+
+</div>
           </div>
 
           <div className="space-y-6">
