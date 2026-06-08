@@ -70,8 +70,7 @@ const QualitySection = () => {
   backgroundPosition: "center bottom",
 }}
 >
-  <div className="absolute inset-0 bg-white/20 md:bg-white/25 backdrop-blur-[1px] md:backdrop-blur-[3px]" />
-      {/* The Backdrop Blur Layer */}
+<div className="absolute inset-0 bg-white/55 bg-white/50 backdrop-blur-md  backdrop-blur-[4px]" />      {/* The Backdrop Blur Layer */}
       {/* <div className="absolute inset-0 bg-white/20 md:bg-white/30 backdrop-blur-[1px] md:backdrop-blur-[6px]"></div> */}
       
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
