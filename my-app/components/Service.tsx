@@ -41,21 +41,17 @@ const ServiceCard = ({ title, imageUrl, category }: ServiceCardProps) => {
 <button
   onClick={handleWhatsAppClick}
   className="
-    w-full md:w-auto
-    px-6 py-3
-    bg-white
-    text-black
-    text-xs
-    font-medium
-    uppercase
-    tracking-[0.2em]
-    rounded-full
-    hover:bg-[#b57c6b]
-    hover:text-white
-    hover:border-[#b57c6b]
+    px-4 sm:px-5 md:px-6
+    py-2
     border border-white
+    text-white
+    text-[9px] sm:text-[10px]
+    uppercase
+    tracking-[0.15em] sm:tracking-[0.25em] md:tracking-[0.3em]
+    hover:bg-white hover:text-black
     transition-all duration-300
-    shadow-lg
+    whitespace-nowrap
+    min-w-[140px] sm:min-w-[160px]
   "
 >
   Customize Now
