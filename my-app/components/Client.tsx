@@ -63,13 +63,12 @@ const QualitySection = () => {
 
   return (
     <section
-  className="relative py-24 overflow-hidden"
-  style={{
-    backgroundImage: "url('/images/e1.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "bottom center",
-    backgroundRepeat: "no-repeat",
-  }}
+  className="relative py-16 md:py-24 overflow-hidden"
+ style={{
+  backgroundImage: "url('/images/e1.jpg')",
+  backgroundSize: "140% auto",
+  backgroundPosition: "center bottom",
+}}
 >
   <div className="absolute inset-0 bg-white/10 md:bg-white/25 backdrop-blur-[1px] md:backdrop-blur-[4px]" />
       {/* The Backdrop Blur Layer */}
@@ -83,7 +82,7 @@ const QualitySection = () => {
               <span className="text-[#b57c6b] uppercase tracking-[0.4em] text-xs font-bold block">
                Why Choose Us
               </span>
-              <h2 className="text-4xl md:text-6xl font-monte text-black">
+              <h2 className="text-3xl md:text-6xl font-monte text-black">
                 Crafted with Love, <br /> 
                 <span className="italic font-light text-[#b57c6b]">Made for Your Moments</span>
               </h2>
@@ -115,11 +114,11 @@ const QualitySection = () => {
 </div>
           </div>
 
-          <div className="space-y-6">
+<div className="space-y-4 md:space-y-6">  
             {pillars.map((pillar, index) => (
               <div 
                 key={index} 
-                className="group p-6 border border-white/20 rounded-2xl bg-white/40 backdrop-blur-sm hover:bg-[#FAF9F6] transition-all duration-500 cursor-default shadow-sm"
+                className="group p-4 md:p-6" border border-white/20 rounded-2xl bg-white/40 backdrop-blur-sm hover:bg-[#FAF9F6] transition-all duration-500 cursor-default shadow-sm"
               >
                 <div className="flex justify-between items-center mb-2">
                   <h3 className="text-2xl font-monte text-gray-800 group-hover:text-[#b57c6b] transition-colors">
