@@ -62,12 +62,18 @@ const QualitySection = () => {
   ];
 
   return (
-    <section 
-      className="relative py-24 font-sans bg-cover bg-center bg-no-repeat overflow-hidden" 
-      style={{ backgroundImage: "url('images/e1.jpg')" }}
-    >
+    <section
+  className="relative py-24 overflow-hidden"
+  style={{
+    backgroundImage: "url('/images/e1.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "bottom center",
+    backgroundRepeat: "no-repeat",
+  }}
+>
+  <div className="absolute inset-0 bg-white/10 md:bg-white/25 backdrop-blur-[1px] md:backdrop-blur-[4px]" />
       {/* The Backdrop Blur Layer */}
-      <div className="absolute inset-0 bg-white/30 backdrop-blur-[6px]"></div>
+      <div className="absolute inset-0 bg-white/20 md:bg-white/30 backdrop-blur-[1px] md:backdrop-blur-[6px]"></div>
       
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
