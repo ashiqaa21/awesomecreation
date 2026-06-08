@@ -22,7 +22,7 @@ export default function WhatsAppButton() {
       rel="noopener noreferrer"
       className="
         fixed bottom-5 right-5 z-[999]
-        h-10
+        h-11
         rounded-full
         bg-[#FAF9F6]
         border border-[#b57c6b]/20
