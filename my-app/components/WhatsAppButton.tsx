@@ -33,10 +33,10 @@ export default function WhatsAppButton() {
         hover:shadow-xl
       "
     >
-      <FaWhatsapp
-        size={18}
-        className="text-[#b57c6b] flex-shrink-0"
-      />
+      <div className="text-[#b57c6b] flex-shrink-0">
+  <FaWhatsapp size={18} />
+</div>
+      
 
       <span
         className={`
