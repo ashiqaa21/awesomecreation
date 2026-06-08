@@ -38,12 +38,22 @@ const ServiceCard = ({ title, imageUrl, category }: ServiceCardProps) => {
         </h3>
         
         <div className="overflow-hidden h-0 group-hover:h-12 transition-all duration-500">
-          <button 
-            onClick={handleWhatsAppClick}
-            className="px-6 py-2 border border-white text-white text-[10px] uppercase tracking-[0.3em] hover:bg-white hover:text-black transition-all duration-300"
-          >
-            Customize Now
-          </button>
+          <button
+  onClick={handleWhatsAppClick}
+  className="
+    w-full sm:w-auto
+    px-4 py-3 sm:px-6 sm:py-2
+    border border-white
+    text-white
+    text-xs sm:text-[10px]
+    uppercase
+    tracking-[0.15em] sm:tracking-[0.3em]
+    hover:bg-white hover:text-black
+    transition-all duration-300
+  "
+>
+  Customize Now
+</button>
         </div>
       </div>
     </div>
