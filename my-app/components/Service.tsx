@@ -24,7 +24,7 @@ const ServiceCard = ({ title, imageUrl, category }: ServiceCardProps) => {
   };
 
   return (
-    <div id="services" className="group relative overflow-hidden h-[500px] rounded-t-full transition-all duration-700 ease-in-out hover:rounded-lg">
+    <div id="services" className="group relative overflow-hidden h-[380px] sm:h-[450px] md:h-[500px] rounded-t-full transition-all duration-700 ease-in-out hover:rounded-lg">
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
         style={{ backgroundImage: `url(${imageUrl})` }}
@@ -37,19 +37,25 @@ const ServiceCard = ({ title, imageUrl, category }: ServiceCardProps) => {
           {title}
         </h3>
         
-        <div className="overflow-hidden h-0 group-hover:h-12 transition-all duration-500">
-          <button
+<div className="overflow-hidden h-12 md:h-0 md:group-hover:h-12 transition-all duration-500">          
+<button
   onClick={handleWhatsAppClick}
   className="
-    w-full sm:w-auto
-    px-4 py-3 sm:px-6 sm:py-2
-    border border-white
-    text-white
-    text-xs sm:text-[10px]
+    w-full md:w-auto
+    px-6 py-3
+    bg-white
+    text-black
+    text-xs
+    font-medium
     uppercase
-    tracking-[0.15em] sm:tracking-[0.3em]
-    hover:bg-white hover:text-black
+    tracking-[0.2em]
+    rounded-full
+    hover:bg-[#b57c6b]
+    hover:text-white
+    hover:border-[#b57c6b]
+    border border-white
     transition-all duration-300
+    shadow-lg
   "
 >
   Customize Now
@@ -107,11 +113,28 @@ const ServicesSection = () => {
     disableOnInteraction: false,
     pauseOnMouseEnter: false,
   }}
-  breakpoints={{
-    320: { slidesPerView: 1.2, spaceBetween: 15 },
-    640: { slidesPerView: 2.2 },
-    1024: { slidesPerView: 5 },
-  }}
+ breakpoints={{
+  320: {
+    slidesPerView: 1.1,
+    spaceBetween: 12,
+  },
+  480: {
+    slidesPerView: 1.3,
+    spaceBetween: 15,
+  },
+  640: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+  1024: {
+    slidesPerView: 4,
+    spaceBetween: 24,
+  },
+  1280: {
+    slidesPerView: 5,
+    spaceBetween: 24,
+  },
+}}
   className="pb-14 services-swiper"
 >
   {services.map((service, index) => (
