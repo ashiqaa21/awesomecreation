@@ -70,9 +70,9 @@ const QualitySection = () => {
   backgroundPosition: "center bottom",
 }}
 >
-  <div className="absolute inset-0 bg-white/10 md:bg-white/25 backdrop-blur-[1px] md:backdrop-blur-[4px]" />
+  <div className="absolute inset-0 bg-white/20 md:bg-white/25 backdrop-blur-[1px] md:backdrop-blur-[3px]" />
       {/* The Backdrop Blur Layer */}
-      <div className="absolute inset-0 bg-white/20 md:bg-white/30 backdrop-blur-[1px] md:backdrop-blur-[6px]"></div>
+      {/* <div className="absolute inset-0 bg-white/20 md:bg-white/30 backdrop-blur-[1px] md:backdrop-blur-[6px]"></div> */}
       
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
@@ -118,7 +118,7 @@ const QualitySection = () => {
             {pillars.map((pillar, index) => (
               <div 
                 key={index} 
-                className="group p-4 md:p-6" border border-white/20 rounded-2xl bg-white/40 backdrop-blur-sm hover:bg-[#FAF9F6] transition-all duration-500 cursor-default shadow-sm"
+                className="group p-4 md:p-6 border border-white/20 rounded-2xl bg-white/40 backdrop-blur-sm hover:bg-[#FAF9F6] transition-all duration-500 cursor-default shadow-sm"
               >
                 <div className="flex justify-between items-center mb-2">
                   <h3 className="text-2xl font-monte text-gray-800 group-hover:text-[#b57c6b] transition-colors">
